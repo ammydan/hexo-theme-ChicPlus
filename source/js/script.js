@@ -88,7 +88,7 @@ document.ready(
 			fixed: true,
 			loop: 'all',
 			order: 'list',
-			autoplay: true,
+			autoplay: false,
 			audio: [{
 				name: 'Outside',
 				artist: '张钰琪',
@@ -103,5 +103,10 @@ document.ready(
 			}
 			]
 		});
+		var pjax = new Pjax({
+		  selectors: [
+			".main"
+		  ]
+		})
     }
 );

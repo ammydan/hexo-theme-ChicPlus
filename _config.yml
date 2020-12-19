@@ -93,6 +93,7 @@ scripts:
   - /js/script.js
   - /js/tocbot.min.js
   - /js/APlayer.min.js
+  - /js/pjax.min.js
     # tscanlin/tocbot: Build a table of contents from headings in an HTML document.
     # https://github.com/tscanlin/tocbot
 
